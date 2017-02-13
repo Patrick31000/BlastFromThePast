@@ -10,8 +10,8 @@ img {
 }
 
 #titre {
-    justify-content: center;
-    display: flex;
+    margin-left: 520px;
+    margin-top: 20px;
 }
 
 .triangle-isosceles p {
@@ -21,8 +21,8 @@ img {
     padding: 15px;
     color: #000;
     background: white;
-    margin-left: 628px;
-    margin-top: -440px;
+    margin-left: 620px;
+    margin-top: -400px;
     /* css3 */
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -37,7 +37,7 @@ img {
     position: relative;
     top: -2px;
     /* value = - border-top-width - border-bottom-width */
-    left: 670px;
+    left: 640px;
     /* controls horizontal position */
     border-width: 15px 15px 0;
     /* vary these values to change the angle of the vertex */
@@ -68,8 +68,6 @@ img {
     font-size: 17px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-right: 30px;
-    margin-left: 10px;
 }
 
 .btn:hover {
@@ -84,12 +82,17 @@ img {
 
 input {
     width: 100px;
+    margin-right: 280px;
 }
 
 #play {
-    align-self: center;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
 }
 
 #submit {
-    align-self: center;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -110px;
 }
