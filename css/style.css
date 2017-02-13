@@ -21,8 +21,8 @@ img {
     padding: 15px;
     color: #000;
     background: white;
-    margin-left: 630px;
-    margin-top: -400px;
+    margin-left: 628px;
+    margin-top: -440px;
     /* css3 */
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -87,5 +87,9 @@ input {
 }
 
 #play {
+    align-self: center;
+}
+
+#submit {
     align-self: center;
 }
